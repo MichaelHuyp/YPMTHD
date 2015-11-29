@@ -13,6 +13,18 @@
 		4ECEE9C31C0B1ECE00BC35E9 /* YPMTHDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9C21C0B1ECE00BC35E9 /* YPMTHDUITests.m */; };
 		4ECEE9DA1C0B28D800BC35E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9D71C0B28D800BC35E9 /* AppDelegate.m */; };
 		4ECEE9DB1C0B28D800BC35E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9D81C0B28D800BC35E9 /* main.m */; };
+		4ECEE9DE1C0B292E00BC35E9 /* YPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9DD1C0B292E00BC35E9 /* YPConst.m */; };
+		4ECEE9E81C0B2A8100BC35E9 /* Foundation+YPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9E11C0B2A8000BC35E9 /* Foundation+YPLog.m */; };
+		4ECEE9E91C0B2A8100BC35E9 /* UIScrollView+YPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9E31C0B2A8000BC35E9 /* UIScrollView+YPExtension.m */; };
+		4ECEE9EB1C0B2A8100BC35E9 /* UIViewController+YPInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9E71C0B2A8000BC35E9 /* UIViewController+YPInit.m */; };
+		4ECEE9EE1C0B2B9400BC35E9 /* UIView+YPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9ED1C0B2B9400BC35E9 /* UIView+YPAdd.m */; };
+		4ECEE9F41C0B30DA00BC35E9 /* YPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9F31C0B30DA00BC35E9 /* YPNavigationController.m */; };
+		4ECEE9F81C0B34A500BC35E9 /* UIBarButtonItem+YPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9F71C0B34A500BC35E9 /* UIBarButtonItem+YPExtension.m */; };
+		4ECEE9FE1C0B395400BC35E9 /* YPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEE9FB1C0B395400BC35E9 /* YPHomeController.m */; };
+		4ECEEA001C0B397700BC35E9 /* YPHomeTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECEE9FF1C0B397700BC35E9 /* YPHomeTopItem.xib */; };
+		4ECEEA031C0B3C6900BC35E9 /* YPHomeTopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEEA021C0B3C6900BC35E9 /* YPHomeTopItem.m */; };
+		4ECEEA061C0B40B200BC35E9 /* YPHomeDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEEA051C0B40B200BC35E9 /* YPHomeDropdown.m */; };
+		4ECEEA081C0B40C000BC35E9 /* YPHomeDropdown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECEEA071C0B40C000BC35E9 /* YPHomeDropdown.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,29 @@
 		4ECEE9D61C0B28D800BC35E9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ECEE9D71C0B28D800BC35E9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4ECEE9D81C0B28D800BC35E9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ECEE9DC1C0B292E00BC35E9 /* YPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPConst.h; sourceTree = "<group>"; };
+		4ECEE9DD1C0B292E00BC35E9 /* YPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPConst.m; sourceTree = "<group>"; };
+		4ECEE9DF1C0B29A200BC35E9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4ECEE9E11C0B2A8000BC35E9 /* Foundation+YPLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+YPLog.m"; sourceTree = "<group>"; };
+		4ECEE9E21C0B2A8000BC35E9 /* UIScrollView+YPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YPExtension.h"; sourceTree = "<group>"; };
+		4ECEE9E31C0B2A8000BC35E9 /* UIScrollView+YPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YPExtension.m"; sourceTree = "<group>"; };
+		4ECEE9E61C0B2A8000BC35E9 /* UIViewController+YPInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YPInit.h"; sourceTree = "<group>"; };
+		4ECEE9E71C0B2A8000BC35E9 /* UIViewController+YPInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YPInit.m"; sourceTree = "<group>"; };
+		4ECEE9EC1C0B2B9400BC35E9 /* UIView+YPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YPAdd.h"; sourceTree = "<group>"; };
+		4ECEE9ED1C0B2B9400BC35E9 /* UIView+YPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YPAdd.m"; sourceTree = "<group>"; };
+		4ECEE9F21C0B30DA00BC35E9 /* YPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNavigationController.h; sourceTree = "<group>"; };
+		4ECEE9F31C0B30DA00BC35E9 /* YPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNavigationController.m; sourceTree = "<group>"; };
+		4ECEE9F51C0B32A000BC35E9 /* 笔记.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "笔记.m"; sourceTree = "<group>"; };
+		4ECEE9F61C0B34A500BC35E9 /* UIBarButtonItem+YPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YPExtension.h"; sourceTree = "<group>"; };
+		4ECEE9F71C0B34A500BC35E9 /* UIBarButtonItem+YPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YPExtension.m"; sourceTree = "<group>"; };
+		4ECEE9FA1C0B395400BC35E9 /* YPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPHomeController.h; sourceTree = "<group>"; };
+		4ECEE9FB1C0B395400BC35E9 /* YPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPHomeController.m; sourceTree = "<group>"; };
+		4ECEE9FF1C0B397700BC35E9 /* YPHomeTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPHomeTopItem.xib; sourceTree = "<group>"; };
+		4ECEEA011C0B3C6900BC35E9 /* YPHomeTopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPHomeTopItem.h; sourceTree = "<group>"; };
+		4ECEEA021C0B3C6900BC35E9 /* YPHomeTopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPHomeTopItem.m; sourceTree = "<group>"; };
+		4ECEEA041C0B40B200BC35E9 /* YPHomeDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPHomeDropdown.h; sourceTree = "<group>"; };
+		4ECEEA051C0B40B200BC35E9 /* YPHomeDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPHomeDropdown.m; sourceTree = "<group>"; };
+		4ECEEA071C0B40C000BC35E9 /* YPHomeDropdown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPHomeDropdown.xib; sourceTree = "<group>"; };
 		B6E3767E65EA44B32829AC27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +147,8 @@
 			children = (
 				4ECEE9A91C0B1ECE00BC35E9 /* Assets.xcassets */,
 				4ECEE9AE1C0B1ECE00BC35E9 /* Info.plist */,
+				4ECEE9DF1C0B29A200BC35E9 /* PrefixHeader.pch */,
+				4ECEE9F51C0B32A000BC35E9 /* 笔记.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,6 +174,7 @@
 		4ECEE9D11C0B28D800BC35E9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4ECEE9E01C0B2A8000BC35E9 /* Category */,
 				4ECEE9D21C0B28D800BC35E9 /* Common */,
 				4ECEE9D31C0B28D800BC35E9 /* Constant */,
 				4ECEE9D41C0B28D800BC35E9 /* Src */,
@@ -156,6 +194,8 @@
 		4ECEE9D31C0B28D800BC35E9 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				4ECEE9DC1C0B292E00BC35E9 /* YPConst.h */,
+				4ECEE9DD1C0B292E00BC35E9 /* YPConst.m */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -163,6 +203,9 @@
 		4ECEE9D41C0B28D800BC35E9 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				4ECEE9F91C0B395400BC35E9 /* Controller */,
+				4ECEE9FC1C0B395400BC35E9 /* Model */,
+				4ECEE9FD1C0B395400BC35E9 /* View */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -173,6 +216,8 @@
 				4ECEE9D61C0B28D800BC35E9 /* AppDelegate.h */,
 				4ECEE9D71C0B28D800BC35E9 /* AppDelegate.m */,
 				4ECEE9D81C0B28D800BC35E9 /* main.m */,
+				4ECEE9F21C0B30DA00BC35E9 /* YPNavigationController.h */,
+				4ECEE9F31C0B30DA00BC35E9 /* YPNavigationController.m */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -182,6 +227,51 @@
 			children = (
 			);
 			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		4ECEE9E01C0B2A8000BC35E9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4ECEE9EC1C0B2B9400BC35E9 /* UIView+YPAdd.h */,
+				4ECEE9ED1C0B2B9400BC35E9 /* UIView+YPAdd.m */,
+				4ECEE9E11C0B2A8000BC35E9 /* Foundation+YPLog.m */,
+				4ECEE9E21C0B2A8000BC35E9 /* UIScrollView+YPExtension.h */,
+				4ECEE9E31C0B2A8000BC35E9 /* UIScrollView+YPExtension.m */,
+				4ECEE9E61C0B2A8000BC35E9 /* UIViewController+YPInit.h */,
+				4ECEE9E71C0B2A8000BC35E9 /* UIViewController+YPInit.m */,
+				4ECEE9F61C0B34A500BC35E9 /* UIBarButtonItem+YPExtension.h */,
+				4ECEE9F71C0B34A500BC35E9 /* UIBarButtonItem+YPExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4ECEE9F91C0B395400BC35E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4ECEE9FA1C0B395400BC35E9 /* YPHomeController.h */,
+				4ECEE9FB1C0B395400BC35E9 /* YPHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4ECEE9FC1C0B395400BC35E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4ECEE9FD1C0B395400BC35E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4ECEE9FF1C0B397700BC35E9 /* YPHomeTopItem.xib */,
+				4ECEEA011C0B3C6900BC35E9 /* YPHomeTopItem.h */,
+				4ECEEA021C0B3C6900BC35E9 /* YPHomeTopItem.m */,
+				4ECEEA041C0B40B200BC35E9 /* YPHomeDropdown.h */,
+				4ECEEA051C0B40B200BC35E9 /* YPHomeDropdown.m */,
+				4ECEEA071C0B40C000BC35E9 /* YPHomeDropdown.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		CE786D9A2992C1AB4E38C38B /* Frameworks */ = {
@@ -309,7 +399,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECEEA001C0B397700BC35E9 /* YPHomeTopItem.xib in Resources */,
 				4ECEE9AA1C0B1ECE00BC35E9 /* Assets.xcassets in Resources */,
+				4ECEEA081C0B40C000BC35E9 /* YPHomeDropdown.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +475,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ECEE9DB1C0B28D800BC35E9 /* main.m in Sources */,
+				4ECEE9FE1C0B395400BC35E9 /* YPHomeController.m in Sources */,
 				4ECEE9DA1C0B28D800BC35E9 /* AppDelegate.m in Sources */,
+				4ECEE9E81C0B2A8100BC35E9 /* Foundation+YPLog.m in Sources */,
+				4ECEE9DE1C0B292E00BC35E9 /* YPConst.m in Sources */,
+				4ECEE9F41C0B30DA00BC35E9 /* YPNavigationController.m in Sources */,
+				4ECEE9E91C0B2A8100BC35E9 /* UIScrollView+YPExtension.m in Sources */,
+				4ECEE9F81C0B34A500BC35E9 /* UIBarButtonItem+YPExtension.m in Sources */,
+				4ECEEA031C0B3C6900BC35E9 /* YPHomeTopItem.m in Sources */,
+				4ECEE9EB1C0B2A8100BC35E9 /* UIViewController+YPInit.m in Sources */,
+				4ECEEA061C0B40B200BC35E9 /* YPHomeDropdown.m in Sources */,
+				4ECEE9EE1C0B2B9400BC35E9 /* UIView+YPAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +611,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YPMTHD/PrefixHeader.pch";
 				INFOPLIST_FILE = YPMTHD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyiti.YPMTHD;
@@ -525,6 +628,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YPMTHD/PrefixHeader.pch";
 				INFOPLIST_FILE = YPMTHD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyiti.YPMTHD;

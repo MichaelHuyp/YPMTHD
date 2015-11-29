@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "YPHomeController.h"
+#import "YPNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:YPScreenBounds];
+    
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[YPNavigationController alloc] initWithRootViewController:[YPHomeController controller]];
+    
     return YES;
 }
 

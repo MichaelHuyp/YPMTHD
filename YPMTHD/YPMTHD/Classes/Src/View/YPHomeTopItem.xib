@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YPHomeTopItem">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDK-jM-GLm" userLabel="分割线">
+                    <rect key="frame" x="5" y="5" width="1" height="25"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="9S3-lu-ygm"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4i-wd-4BJ">
+                    <rect key="frame" x="46" y="0.0" width="69" height="15"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="KQ2-Sd-X26"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="子标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPz-yl-x4r">
+                    <rect key="frame" x="46" y="15" width="69" height="20"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="NI5-CW-9nE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCZ-21-hvv" userLabel="图标按钮">
+                    <rect key="frame" x="0.0" y="0.0" width="120" height="35"/>
+                    <animations/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="icon_district"/>
+                    <state key="highlighted" image="icon_district_highlighted"/>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CPz-yl-x4r" secondAttribute="trailing" constant="5" id="CEQ-OA-kaE"/>
+                <constraint firstAttribute="bottom" secondItem="CPz-yl-x4r" secondAttribute="bottom" id="I9Z-gd-c3Q"/>
+                <constraint firstAttribute="trailing" secondItem="c4i-wd-4BJ" secondAttribute="trailing" constant="5" id="LXH-Bb-6Ga"/>
+                <constraint firstItem="kDK-jM-GLm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="RkX-ij-xVm"/>
+                <constraint firstItem="CPz-yl-x4r" firstAttribute="leading" secondItem="kDK-jM-GLm" secondAttribute="trailing" constant="40" id="Yks-3F-mca"/>
+                <constraint firstAttribute="bottom" secondItem="oCZ-21-hvv" secondAttribute="bottom" id="bZf-Ok-3WG"/>
+                <constraint firstItem="c4i-wd-4BJ" firstAttribute="leading" secondItem="kDK-jM-GLm" secondAttribute="trailing" constant="40" id="cGd-Ya-iar"/>
+                <constraint firstAttribute="trailing" secondItem="oCZ-21-hvv" secondAttribute="trailing" id="dwS-Gd-Ica"/>
+                <constraint firstItem="kDK-jM-GLm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="kIO-EO-H8h"/>
+                <constraint firstAttribute="bottom" secondItem="kDK-jM-GLm" secondAttribute="bottom" constant="5" id="nru-YV-wrM"/>
+                <constraint firstItem="oCZ-21-hvv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="psy-MY-0VH"/>
+                <constraint firstItem="oCZ-21-hvv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vIT-yr-jMT"/>
+                <constraint firstItem="c4i-wd-4BJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yUj-LJ-681"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconBtn" destination="oCZ-21-hvv" id="6vm-5g-TBG"/>
+            </connections>
+            <point key="canvasLocation" x="243" y="376.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_district" width="30" height="30"/>
+        <image name="icon_district_highlighted" width="30" height="30"/>
+    </resources>
+</document>
